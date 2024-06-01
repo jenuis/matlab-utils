@@ -1,9 +1,16 @@
-function addpath_matutil(sub_dir)
+function addpath_matutil(sub_module, operation)
+%% check argument
+if nargin < 2
+    operation = 'add';
+end
+if nargin < 1
+    sub_module = '';
+end
 %% get current repo path
 curr_dir = fileparts(mfilename('fullpath'));
 %% add sub module
-if nargin > 0
-    addpathchk('matlab-utils', sub_dir, curr_dir);
+if ~isempty(sub_module)
+    repopathctrl(curr_dir, sub_module, operation);
     return
 end
 %% get sub dirs
@@ -12,4 +19,4 @@ subdirs(~[subdirs.isdir]) = [];
 subdirs = {subdirs.name};
 subdirs(startsWith(subdirs, '.')) = [];
 %% add all sub dirs
-addpathchk('matlab-utils', subdirs, curr_dir);
+repopathctrl(curr_dir, subdirs, operation);
