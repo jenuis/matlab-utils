@@ -3,7 +3,7 @@ function [str, cell_str] = argstrchk(cell_str, str)
 if ~ischar(str)
     error('argument str is not a string!')
 end
-if ~iscellstr(cell_str)
+if ~iscellstr(cell_str) || ~isstring(cell_str)
     error('argument cell_str is not a cellstr')
 end
 %% main

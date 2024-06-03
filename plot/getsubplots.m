@@ -1,3 +1,9 @@
+% -------------------------------------------------------------------------
+% Copyright 2019 Xiang Liu
+% Contact: Xiang Liu, xliu.fusion@outlook.com
+% This file is part of MATLAB-UTILS. You should have recieved a copy of the
+% MIT license. If not, see <https://mit-license.org>
+% -------------------------------------------------------------------------
 function subplot_objs = getsubplots(fig_obj, sub_id)
 if nargin == 0
     fig_obj = gcf;

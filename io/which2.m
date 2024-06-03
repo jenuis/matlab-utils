@@ -1,3 +1,10 @@
+%% Get m-file path only searching $MATLABPATH
+% -------------------------------------------------------------------------
+% Copyright 2023 Xiang Liu
+% Contact: Xiang Liu, xliu.fusion@outlook.com
+% This file is part of MATLAB-UTILS. You should have recieved a copy of the
+% MIT license. If not, see <https://mit-license.org>
+% -------------------------------------------------------------------------
 function varargout = which2(mfile)
     %% check arguments
     [~, mfile] = fileparts(mfile);

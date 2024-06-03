@@ -1,6 +1,6 @@
 function ArgStruct=parseArgs(args,ArgStruct,varargin)
-% https://jp.mathworks.com/matlabcentral/fileexchange/3448-parse-function-arguments?s_tid=FX_rc1_behav
 % Helper function for parsing varargin. 
+% https://ww2.mathworks.cn/matlabcentral/fileexchange/3448-parse-function-arguments?s_tid=FX_rc1_behav
 %
 %
 % ArgStruct=parseArgs(varargin,ArgStruct[,FlagtypeParams[,Aliases]])

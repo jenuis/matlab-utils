@@ -1,6 +1,7 @@
 %% function [slope, intercept,MSE, R2, S] = logfit(x,y,varargin)
 % This function plots the data with a power law, logarithmic, exponential
 % or linear fit.
+%   https://ww2.mathworks.cn/matlabcentral/fileexchange/29545-power-law-exponential-and-logarithmic-fit?s_tid=srchtitle
 %
 %   logfit(X,Y,graphType),  where X is a vector and Y is a vector or a
 %               matrix will plot the data with the axis scaling determined

@@ -1,4 +1,9 @@
-% function [ind_rng, new_time] = timerngind(time_array, time_range, dtmaxtimes)
+% -------------------------------------------------------------------------
+% Copyright 2019 Xiang Liu
+% Contact: Xiang Liu, xliu.fusion@outlook.com
+% This file is part of MATLAB-UTILS. You should have recieved a copy of the
+% MIT license. If not, see <https://mit-license.org>
+% -------------------------------------------------------------------------
 function [ind_rng, new_time] = timerngind(time_array, time_range)
 %% check arguments
 % if nargin == 2

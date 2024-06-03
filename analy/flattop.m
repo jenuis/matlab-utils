@@ -2,7 +2,7 @@
 % -------------------------------------------------------------------------
 % Copyright 2019 Xiang Liu
 % Contact: Xiang Liu, xliu.fusion@outlook.com
-% This file is part of EAST-MDSLAB. You should have recieved a copy of the
+% This file is part of MATLAB-UTILS. You should have recieved a copy of the
 % MIT license. If not, see <https://mit-license.org>
 % -------------------------------------------------------------------------
 % Author: Xiang Liu@ASIPP

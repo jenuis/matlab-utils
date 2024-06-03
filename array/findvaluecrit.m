@@ -1,3 +1,10 @@
+%% Find indices of the values in array with sepecified miminal resolution.
+% -------------------------------------------------------------------------
+% Copyright 2019 Xiang Liu
+% Contact: Xiang Liu, xliu.fusion@outlook.com
+% This file is part of MATLAB-UTILS. You should have recieved a copy of the
+% MIT license. If not, see <https://mit-license.org>
+% -------------------------------------------------------------------------
 function indices = findvaluecrit(array, values_to_find, max_diff)
 % Last modified by Xiang Liu @ 2017-4-10
 % Find indices of the values in array. if values_to_find is a 1-D array

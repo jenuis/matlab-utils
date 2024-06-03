@@ -1,3 +1,9 @@
+% -------------------------------------------------------------------------
+% Copyright 2019 Xiang Liu
+% Contact: Xiang Liu, xliu.fusion@outlook.com
+% This file is part of MATLAB-UTILS. You should have recieved a copy of the
+% MIT license. If not, see <https://mit-license.org>
+% -------------------------------------------------------------------------
 function tar_ind = findvaluefloor(arr, tar)
 tar_ind = [];
 if length(unique(arr)) ~= length(arr)

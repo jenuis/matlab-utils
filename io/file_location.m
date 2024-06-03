@@ -1,5 +1,7 @@
 function file_path = file_location(file_name)
-
+file_path = fileparts(which(file_name));
+warning('Deprecated! Use "which" instead.')
+return
 sp = path;
 sp = strsplit(sp, ':');
 

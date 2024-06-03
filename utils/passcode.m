@@ -1,8 +1,8 @@
 function pass = passcode(charset)
-% https://www.mathworks.com/matlabcentral/fileexchange/6590-passcode
 % PASSCODE  password input dialog box.
 %  passcode creates a modal dialog box that returns user password input.
 %  Given characters are substituted with '*'-Signs like in usual Windows dialogs.
+%  https://www.mathworks.com/matlabcentral/fileexchange/6590-passcode
 %  
 %  usage:
 %  answer = PASSCODE 

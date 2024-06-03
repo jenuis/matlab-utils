@@ -1,3 +1,10 @@
+%% Find indices of the times in a time array.
+% -------------------------------------------------------------------------
+% Copyright 2019 Xiang Liu
+% Contact: Xiang Liu, xliu.fusion@outlook.com
+% This file is part of MATLAB-UTILS. You should have recieved a copy of the
+% MIT license. If not, see <https://mit-license.org>
+% -------------------------------------------------------------------------
 function [inds, new_times] = findtime(time_array, time_slices, critical)
 if nargin == 2
     critical = 0;
